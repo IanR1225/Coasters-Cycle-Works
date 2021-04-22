@@ -9,14 +9,28 @@
   
   <div id=map></div>
   <div id=border></div>
+  <div id=h1><h1>Coasters Cycle Works</h1></div>
+  <div id=h2><h1>122 W Wisconsin Ave, Tomahawk, WI 54487</h1></div>
   
   <style>
   body {
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  
   background:black;
     padding:0;
     margin:0;
     border:0;
     }
+    h1 { text-align:center;
+    
+border: 10px solid #696969;
+background:#696969;
+color:white;
+font-family:'Roboto', sans-serif;
+font-size:1.5em;
+}
+    
   #map {
   position: absolute;
   height: 60vh;
@@ -31,6 +45,19 @@ background:#696969;
 position:absolute;
 left:calc(50% - 42.5vw);
 top:calc(50% - 32.5vh);
+}
+ #h2 { 
+ text-align:center;   
+border: 10px solid #696969;
+background:#696969;
+color:white;
+font-family:'Roboto', sans-serif;
+font-size:1em;
+position:absolute;
+bottom:0px;
+right:0px;
+left:0px;
+}
   
   
   </style>
